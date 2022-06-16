@@ -1,0 +1,293 @@
+:root{
+    --color-blue: #2196F3;
+    --dark-blue: #2F303A;
+    --white: #fff;
+    --black: #212121;
+    --light-silver: #F5F4FA;
+    --silver-gray: #757575;
+    --button-hover: #188CE8;
+    --transition: .7s;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--white);
+    font-family: 'Roboto', sans-serif;
+}
+ul, ol, li{
+    list-style: none;
+}
+a, button{
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+/* header and footer */
+
+header.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    /* height: 80px; */
+}
+ul.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+ul.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+li.navigation-item{
+    padding: 0px 20px;
+}
+li.navigation-item a{
+    color: var(--black);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 4.7;
+}
+li.navigation-item a:hover, 
+li.contact-item a:hover{
+    color: var(--color-blue);
+    transition: var(--transition);
+}
+li.contact-item a{
+    color: var(--black);
+    font-size: 14px;
+    /* line-height: 5.7; */
+    color: var(--black);
+    padding: 0px 20px;
+    font-weight: 500;
+}
+footer.footer{
+    background-color: var(--dark-blue);
+    height: 252px;
+    padding: 52px 102px;
+    margin: 0px 0 0;
+}
+li.address-contact-item a{
+    color: white;
+    font-style: normal;
+    margin: 9px 0 0;
+    display: block;
+}
+li.address-contact-item:hover a {
+    color: var(--color-blue);
+    transition: var(--transition);
+}
+a.main-logo{
+    font-weight: bold;
+    font-size: 26px;
+}
+a.main-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: var(--black);
+}
+a.main-logo span{
+    color: var(--color-blue);
+    }
+a.bottom-logo{
+    color: var(--white);
+    margin: 14px 0px;
+    display: block;
+}
+li.address-contact-item:first-child a{ }
+
+
+/* main page */
+/* main page */
+/* main page */
+
+
+h1.main-title{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 auto;
+    color: var(--white);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.4;
+    word-spacing: 0px;
+    letter-spacing: 4px;
+}
+section.main-section{
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+button[type="button"]{                      /*big blue button*/
+    background-color: var(--color-blue);
+    color: var(--white);
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 34px 0 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+button[type="button"]:hover {
+    background-color: var(--button-hover);
+    transition: var(--transition);
+}
+ul.attention-to-details{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px 0;
+}
+ul.attention-to-details p{
+    color: var(--silver-gray);
+}
+ul.what-we-do{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+ul.our-people{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+h2.our-people-title{
+    text-align: center;
+    padding: 89px 0 50px;
+    color: var(--black);
+}
+h2.what-we-do-title {
+    text-align: center;
+    padding: 35px 0;
+    color: var(--black);
+}
+li.attention-to-details-items{
+    flex-basis: calc((100% - 300px)/4);
+    padding: 0 20px;
+}
+li.attention-to-details-items h3{
+    color: var(--black);
+}
+ul.what-we-do img[width="370"]{
+    padding: 0px 9px;
+}
+section.our-people-section-for-background{
+    background-color: var(--light-silver);
+    padding: 0px 0 80px;
+}
+li.our-people-item{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0 0 30px;
+    margin: 0 10px;
+}
+li.our-people-item h3{
+    color: var(--black);
+    padding: 21px 0 10px;
+}
+li.our-people-item p {
+    color: var(--silver-gray);
+}
+section.attention-to-details-section-for-background{
+    padding: 10px 0;
+}
+section.what-we-do-section-for-background{
+    padding: 10px 0 75px;
+}
+
+/* portfolio */
+/* portfolio */
+/* portfolio */
+
+ul.main-block-big-foto{
+    margin: 0 auto;
+    width: 68%;
+    max-width: 950px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+li.main-block-big-foto-items{
+    border: 1px solid var(--light-silver);
+    flex-basis: calc((100% - 20px)/3);
+    /* flex-grow: 0; */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+    align-items: center;
+}
+li.main-block-big-foto-items h3,
+li.main-block-big-foto-items p{
+    /* text-align: center; */
+    padding: 10px 10px 17px;
+    /* color: silver; */
+}
+
+li.main-block-big-foto-items h3 {
+    font-size: 16px;
+    padding: 19px 10px 0px 11px;
+    /* text-align: left; */
+    align-self: flex-start;
+}
+li.main-block-big-foto-items p {
+    color: var(--silver-gray);
+    padding: 16px 11px;
+    align-self: flex-start;
+}
+ul.portfolio-many-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 106px 0 50px;
+}
+li.portfolio-many-buttons-item{
+    color: var(--white);
+}   
+li.portfolio-many-buttons-item button{
+    color: var(--black);
+    font-size: 16px;  
+    line-height: 1.37;
+    padding: 11px 16px;
+    background-color: var(--light-silver);
+    margin: 0 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+li.portfolio-many-buttons-item:hover button{
+    background-color: var(--color-blue);
+    color: var(--white);
+    transition: var(--transition);
+}
+h2.title-hidden{
+    display: none;
+}
