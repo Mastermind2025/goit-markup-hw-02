@@ -78,7 +78,7 @@ li.address-contact-item a{
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
-li.address-contact-item strong a {
+li.address-contact-item:nth-child(1) a {
     color: var(--white);
 }
 li.address-contact-item:hover a {
