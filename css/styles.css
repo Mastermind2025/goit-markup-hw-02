@@ -44,39 +44,42 @@ li.navigation-item{
     padding: 0px 20px;
 }
 li.navigation-item a{
-    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.02em;
+    text-decoration: none;
+
     color: var(--black);
     
 }
 li.navigation-item a:hover, 
 li.contact-item a:hover{
+    text-decoration: none;
     color: var(--color-blue);
     transition: var(--transition);
 }
 li.contact-item a{
-    color: var(--contact-gray);
     font-size: 14px;
     line-height: 1.14;
     font-weight: 500;
-    font-family: inherit;
     letter-spacing: 0.02em;
+    text-decoration: none;
+
+    color: var(--contact-gray);
     
 }
 footer.footer{
     background-color: var(--dark-blue);
 }
 li.address-contact-item a{
-    color: var(--silver-footer);
-    font-family: inherit;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    text-decoration: none;
+
+    color: var(--silver-footer);
 }
 li.address-contact-item:nth-child(1) a {
     color: var(--white);
@@ -91,6 +94,8 @@ a.main-logo{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
+
     color: var(--black-for-logo);
 }
 a.main-logo span{
@@ -107,52 +112,56 @@ a.bottom-logo{
 
 
 h1.main-title{
-    font-family: inherit;
     font-size: 44px;
     font-weight: 900;
-    color: var(--white);
     text-transform: uppercase;
     text-align: center;
     line-height: 1.4;
     letter-spacing: 0.06em;
+
+    color: var(--white);
    
 }
 section.main-section{
     background-color: var(--dark-blue);
 }
 button[type="button"]{                      /*big blue button*/
-    background-color: var(--color-blue);
-    color: var(--white);
+    font-family: inherit;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;
-    font-family: inherit;
     letter-spacing: 0.06em;
     text-align: center;
+
+    background-color: var(--color-blue);
+    color: var(--white);
+
+
 }
 button[type="button"]:hover {
-    background-color: var(--button-hover);
     transition: var(--transition);
+    background-color: var(--button-hover);
 }
 ul.attention-to-details{
    
 }
 h3.attention-to-details-title{
-    color: var(--black);
-    font-family: inherit;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    color: var(--black);
 }
 ul.attention-to-details p{
-    color: var(--silver-gray);
-    font-family: inherit;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+    color: var(--silver-gray);
+
+
 }
 ul.what-we-do{
    
@@ -162,13 +171,15 @@ ul.our-people{
 }
 
 h2.what-we-do-title {
-    font-family: inherit;
     text-align: center;
-    color: var(--black);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03em;
+
+    color: var(--black);
+
+
 }
 li.attention-to-details-items{
    
@@ -185,22 +196,21 @@ li.our-people-item{
    
 }
 li.our-people-item h3{
-    color: var(--black);
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+
+    color: var(--black);
 }
 li.our-people-item p {
-    color: var(--silver-gray);
-    font-family: inherit;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+
+    color: var(--silver-gray);
 }
 section.attention-to-details-section-for-background{
    
@@ -224,20 +234,21 @@ li.main-block-big-foto-items p{
 }
 
 li.main-block-big-foto-items h3 {
-    font-family: inherit;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
     color: var(--black);
 }
 li.main-block-big-foto-items p {
-    color: var(--silver-gray);
-    font-family: inherit;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+
+    color: var(--silver-gray);
+
+
 }
 ul.portfolio-many-buttons{
     
@@ -245,21 +256,23 @@ ul.portfolio-many-buttons{
 li.portfolio-many-buttons-item{
     color: var(--white);
 }   
-li.portfolio-many-buttons-item button{
+li.portfolio-many-buttons-item button{      /*many buttons*/
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+
     background-color: var(--white);
     color: var(--black);
 }
 
 li.portfolio-many-buttons-item:hover button{
+    transition: var(--transition);
+
     background-color: var(--color-blue);
     color: var(--white);
-    transition: var(--transition);
 }
 h2.title-hidden{
     display: none;
